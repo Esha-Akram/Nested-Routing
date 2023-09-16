@@ -1,0 +1,47 @@
+#menu {
+    list-style-type: none;
+    font-size: 1.6rem;
+    padding: 2rem;
+    box-shadow: 5px 8px 10px #f7f5f5;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#menu h1 a {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    font-size: 3rem;
+    color: black;
+    text-decoration: none;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+}
+
+#menu li a:hover {
+    color: #258C60;
+    cursor: pointer;
+}
+
+#menu li a.active {
+    color: #258C60;
+    font-weight: bold;
+}
+
+#menu button {
+    background-color: white;
+    border: 0.1rem solid #258C60;
+    padding: 1rem 4rem;
+    border-radius: 1.2rem;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+#menu button:hover {
+    background-color: #258C60;
+    color: white;
+    transition: 0.4s linear;
+}

@@ -1,0 +1,26 @@
+.side-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 5px 0 10px #f7f5f5;
+    padding: 5.5rem;
+ 
+}
+
+.side-menu li {
+    padding: 2rem;
+    list-style-type: none;
+    font-size: 1.6rem;
+}
+
+.side-menu a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.side-menu a.active {
+    color: #258C60;
+    cursor: pointer;
+    font-weight: bold;
+}

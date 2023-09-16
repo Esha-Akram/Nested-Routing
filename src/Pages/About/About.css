@@ -1,0 +1,84 @@
+#about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 6rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#about .content {
+    width: 46%;
+}
+
+#about h2 {
+    font-size: 5rem;
+}
+
+#about p {
+    padding-top: 1rem;
+    font-size: 1.6rem;
+    color: rgb(100, 94, 94);
+}
+
+#about .profile {
+    width: 43%;
+}
+
+#about .profile img {
+    width: 100%;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #about .content {
+        width: 100%;
+    }
+
+    #about .profile {
+        width: 100%;
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #about .content {
+        width: 100%;
+    }
+
+    #about .profile {
+        width: 100%;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #about .content {
+        width: 40%;
+    }
+
+    #about .profile {
+        width: 40%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #about .content {
+        width: 46%;
+    }
+
+    #about .profile {
+        width: 43%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #about .content {
+        width: 46%;
+    }
+
+    #about .profile {
+        width: 43%;
+    }
+}

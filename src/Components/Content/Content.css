@@ -1,0 +1,89 @@
+#product {
+    background-color: #f0eeee;
+    width: 24%;
+    height: auto;
+    margin-bottom: 1rem;
+    margin-right: 1rem;
+}
+
+#product img {
+    width: 100%;
+    height: 80%;
+}
+
+#product .disc {
+    font-size: 1.6rem;
+    padding-bottom: 1rem;
+    text-align: center;
+}
+
+#product .price {
+    color: rgb(255, 102, 0);
+    font-weight: bold;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    #product {
+        width: 100%;
+    }
+
+    html {
+        font-size: 29.5%;
+    }
+    .content {
+        justify-content: center;
+    
+    }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    #product {
+        width: 50%;
+    }
+
+    html {
+        font-size: 39.5%;
+    }
+    .content {
+        justify-content: center;
+    
+    }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    #product {
+        width: 45%;
+    }
+
+    html {
+        font-size: 50.5%;
+    }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    #product {
+        width: 24%;
+    }
+
+    html {
+        font-size: 62.5%;
+    }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    #product {
+        width: 24%;
+    }
+
+    html {
+        font-size: 62.5%;
+    }
+}
