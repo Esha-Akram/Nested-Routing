@@ -1,7 +1,7 @@
 import { Footer } from "../../Components/Footer/Footer";
 import './Contact.css';
 import React, { useState, useEffect } from "react";
-import { useNavigate, Prompt } from "react-router-dom";  //Prompt is not used in version 6
+import { useNavigate } from "react-router-dom";  //Prompt is not used in version 6
 import Swal from "sweetalert2";
 
 export const Contact = () => {
@@ -50,10 +50,6 @@ export const Contact = () => {
 
     return (
         <>
-            {/* <Prompt
-                when={setIsFormEdited}
-                message={() => "There are some unsaved changes, Are you sure you want out?"}
-            /> */}
             <div id="contact-form">
                 <h2>Get into touch with us</h2>
                 <p>Need help with something? Let's discuss your query, and we'll get back to you soon.</p>
